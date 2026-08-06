@@ -1,0 +1,628 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+.site-header {
+    height: 50px;
+    background-color: #1685f8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 12px;
+}
+
+.logo {
+    color: white;
+    font-size: 15px;
+}
+
+.menu-icon {
+    width: 20px;
+}
+
+
+
+/* SERVICES */
+
+.services {
+    padding: 25px 10px 40px;
+
+    display: grid;
+    gap: 10px;
+}
+
+.demo-card {
+    background-color: #b4dafc;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    padding: 20px 18px 0;
+}
+
+.demo-card h1 {
+    color: #1685f8;
+
+    margin-top: 0;
+
+    font-size: 20px;
+}
+
+.demo-card p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.app-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    width: 130px;
+
+    background-color: #1685f8;
+    color: white;
+
+    border-radius: 30px;
+
+    padding: 8px 12px;
+
+    font-size: 12px;
+}
+
+.app-button img {
+    width: 14px;
+}
+
+.phone {
+    width: 180px;
+
+    margin: 20px auto 0;
+}
+
+
+
+.service-card {
+    border-radius: 12px;
+
+    padding: 20px 12px;
+
+    text-align: center;
+}
+
+.service-card img {
+    width: 50px;
+
+    margin: 0 auto 10px;
+}
+
+.service-card h2 {
+    font-size: 16px;
+}
+
+.service-card p {
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+
+.clean-code {
+    background-color: #c8f0dc;
+}
+
+.clean-code h2 {
+    color: #45bf86;
+}
+
+
+.web-design {
+    background-color: #ffd0d0;
+}
+
+.web-design h2 {
+    color: #ff8585;
+}
+
+
+.development {
+    background-color: #ffe4b7;
+}
+
+.development h2 {
+    color: #ffb64f;
+}
+
+
+.branding {
+    background-color: #d8d5f6;
+}
+
+.branding h2 {
+    color: #8f8ce9;
+}
+
+
+
+/* PLANNING */
+
+.planning {
+    background-color: #908de7;
+
+    color: white;
+
+    padding: 45px 15px;
+
+    display: grid;
+
+    gap: 35px;
+}
+
+.planning-info > img {
+    width: 100%;
+
+    max-width: 350px;
+
+    margin: auto;
+}
+
+.planning-info h2 {
+    margin-top: 40px;
+
+    font-size: 30px;
+}
+
+.planning-info p {
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+
+.app-development {
+    background-color: white;
+    color: #333;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+.app-development > img {
+    margin: auto;
+
+    max-width: 300px;
+}
+
+.app-development h2 {
+    font-size: 16px;
+}
+
+.app-development p {
+    font-size: 12px;
+
+    line-height: 1.6;
+
+    font-style: italic;
+}
+
+.arrow-button {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+
+    background-color: #d8d5f6;
+
+    margin: 15px auto 0;
+}
+
+.arrow-button img {
+    width: 18px;
+}
+
+
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding: 45px 12px;
+
+    text-align: center;
+}
+
+.small-title {
+    font-size: 10px;
+
+    letter-spacing: 2px;
+}
+
+.testimonials > h2 {
+    color: #908de7;
+
+    font-size: 23px;
+}
+
+.testimonial-intro {
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+.testimonial-list {
+    display: grid;
+
+    gap: 10px;
+}
+
+.testimonial-card {
+    border-radius: 12px;
+
+    padding: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: left;
+
+    gap: 12px;
+}
+
+.testimonial-card img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.testimonial-card p {
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+.testimonial-card h3 {
+    color: #222;
+
+    font-size: 11px;
+}
+
+.pink {
+    background-color: #ffb9b9;
+}
+
+.orange {
+    background-color: #ffd49a;
+}
+
+.green {
+    background-color: #ade7c9;
+}
+
+
+
+/* BENEFITS */
+
+.benefits {
+    background-color: #908de7;
+
+    padding: 35px 8px;
+}
+
+.benefits > h2 {
+    color: white;
+
+    text-align: center;
+
+    font-size: 23px;
+
+    margin-bottom: 25px;
+}
+
+.benefit-grid {
+    display: grid;
+
+    gap: 8px;
+}
+
+.benefit-card {
+    background-color: white;
+
+    border-radius: 10px;
+
+    padding: 15px;
+}
+
+.benefit-card span {
+    color: #908de7;
+
+    font-size: 37px;
+
+    font-weight: bold;
+}
+
+.benefit-card h3 {
+    color: #908de7;
+
+    font-size: 14px;
+}
+
+.benefit-card p {
+    font-size: 10px;
+
+    line-height: 1.5;
+}
+
+.benefit-card a {
+    display: inline-block;
+
+    background-color: #908de7;
+
+    color: white;
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-size: 9px;
+}
+
+
+
+/* ABOUT */
+
+.about {
+    padding: 45px 15px;
+
+    display: grid;
+
+    gap: 30px;
+}
+
+.about-info h2 {
+    color: #908de7;
+
+    font-size: 28px;
+}
+
+.about-info p {
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+.boss-image {
+    position: relative;
+
+    width: 160px;
+}
+
+.boss {
+    width: 130px;
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.quote {
+    position: absolute;
+
+    top: -8px;
+    right: 0;
+
+    width: 38px;
+}
+
+.about-person h3 {
+    color: #908de7;
+
+    max-width: 260px;
+
+    font-size: 17px;
+}
+
+.linkedin-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    background-color: #908de7;
+
+    color: white;
+
+    padding: 7px 12px;
+
+    border-radius: 4px;
+
+    font-size: 10px;
+}
+
+.linkedin-button img {
+    width: 12px;
+}
+
+
+
+/* PRICING */
+
+.pricing {
+    background-color: #908de7;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+}
+
+.pricing h3 {
+    font-size: 22px;
+
+    font-weight: normal;
+
+    margin-bottom: 5px;
+}
+
+.pricing h2 {
+    color: #ffc84e;
+
+    font-size: 43px;
+
+    margin: 0;
+}
+
+.pricing > p:not(.small-title) {
+    font-size: 11px;
+
+    max-width: 420px;
+
+    margin: 10px auto;
+
+    line-height: 1.5;
+}
+
+.get-started {
+    display: block;
+
+    width: 150px;
+
+    margin: 20px auto;
+
+    padding: 9px;
+
+    background-color: white;
+
+    color: #908de7;
+
+    border-radius: 30px;
+
+    font-size: 11px;
+}
+
+.pricing small {
+    font-size: 8px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    font-size: 8px;
+}
+
+footer p {
+    max-width: 400px;
+
+    margin: auto;
+}
+/* TABLET */
+
+@media (min-width: 600px) {
+
+    .services {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .demo-card {
+        grid-column: span 2;
+
+        display: flex;
+
+        padding-bottom: 0;
+    }
+
+
+    .demo-info {
+        flex: 1;
+    }
+
+
+    .phone {
+        width: 140px;
+
+        align-self: flex-end;
+
+        margin: 0;
+    }
+
+
+    .testimonial-card {
+        flex-direction: row;
+
+        padding: 18px;
+    }
+
+
+    .testimonial-card img {
+        flex-shrink: 0;
+    }
+
+
+    .benefit-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .about {
+        grid-template-columns: 2fr 1fr;
+
+        align-items: start;
+    }
+
+}
