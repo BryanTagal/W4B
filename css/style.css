@@ -626,3 +626,103 @@ footer p {
     }
 
 }
+/* DESKTOP */
+
+@media (min-width: 900px) {
+
+    .site-header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .services {
+        grid-template-columns: repeat(3, 1fr);
+
+        max-width: 1200px;
+
+        margin: auto;
+
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+
+    .demo-card {
+        grid-column: span 2;
+    }
+
+
+    .service-card {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .planning {
+        grid-template-columns: 1fr 1fr;
+
+        align-items: end;
+
+        padding: 70px max(40px, calc((100% - 850px) / 2));
+    }
+
+
+    .planning-info h2 {
+        font-size: 28px;
+    }
+
+
+    .app-development {
+        max-width: 370px;
+
+        margin: auto;
+    }
+
+
+    .testimonials {
+        max-width: 900px;
+
+        margin: auto;
+    }
+
+
+    .testimonial-list {
+        max-width: 650px;
+
+        margin: auto;
+    }
+
+
+    .benefit-grid {
+        grid-template-columns: repeat(3, 1fr);
+
+        max-width: 1200px;
+
+        margin: auto;
+    }
+
+
+    .benefits {
+        padding: 50px 25px;
+    }
+
+
+    .about {
+        grid-template-columns: 2fr 1fr;
+
+        max-width: 1200px;
+
+        margin: auto;
+
+        padding-top: 65px;
+        padding-bottom: 100px;
+    }
+
+
+    .pricing {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
