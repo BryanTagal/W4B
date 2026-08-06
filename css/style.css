@@ -23,11 +23,13 @@ a {
 
 
 
-/* HEADER */
+/* =========================
+   HEADER
+========================= */
 
 .site-header {
     height: 50px;
-    background-color: #1685f8;
+    background-color: #0084FF;
 
     display: flex;
     justify-content: space-between;
@@ -47,7 +49,9 @@ a {
 
 
 
-/* SERVICES */
+/* =========================
+   SERVICES
+========================= */
 
 .services {
     padding: 25px 10px 40px;
@@ -57,7 +61,7 @@ a {
 }
 
 .demo-card {
-    background-color: #b4dafc;
+    background-color: #B8DDFF;
 
     border-radius: 12px;
 
@@ -67,7 +71,7 @@ a {
 }
 
 .demo-card h1 {
-    color: #1685f8;
+    color: #0084FF;
 
     margin-top: 0;
 
@@ -88,7 +92,7 @@ a {
 
     width: 130px;
 
-    background-color: #1685f8;
+    background-color: #0084FF;
     color: white;
 
     border-radius: 30px;
@@ -109,6 +113,8 @@ a {
 }
 
 
+
+/* SERVICE CARDS */
 
 .service-card {
     border-radius: 12px;
@@ -134,47 +140,61 @@ a {
 }
 
 
+
+/* CLEAN CODE */
+
 .clean-code {
-    background-color: #c8f0dc;
+    background-color: #CAF0DB;
 }
 
 .clean-code h2 {
-    color: #45bf86;
+    color: #54C788;
 }
 
 
+
+/* WEB DESIGN */
+
 .web-design {
-    background-color: #ffd0d0;
+    background-color: #FFD2D2;
 }
 
 .web-design h2 {
-    color: #ff8585;
+    color: #FF8A8A;
 }
 
 
+
+/* DEVELOPMENT */
+
 .development {
-    background-color: #ffe4b7;
+    background-color: #FFE7C4;
 }
 
 .development h2 {
-    color: #ffb64f;
+    color: #FFC166;
 }
 
 
+
+/* BRANDING */
+
 .branding {
-    background-color: #d8d5f6;
+    background-color: #D5D4F5;
 }
 
 .branding h2 {
-    color: #8f8ce9;
+    color: #9693E6;
 }
 
 
 
-/* PLANNING */
+/* =========================
+   STRATEGIC PLANNING
+========================= */
 
 .planning {
-    background-color: #908de7;
+    background-color: #9693E6;
 
     color: white;
 
@@ -207,9 +227,11 @@ a {
 
 
 
+/* APP DEVELOPMENT CARD */
+
 .app-development {
     background-color: white;
-    color: #333;
+    color: #333333;
 
     border-radius: 18px;
 
@@ -247,7 +269,7 @@ a {
 
     border-radius: 50%;
 
-    background-color: #d8d5f6;
+    background-color: #D5D4F5;
 
     margin: 15px auto 0;
 }
@@ -258,7 +280,9 @@ a {
 
 
 
-/* TESTIMONIALS */
+/* =========================
+   TESTIMONIALS
+========================= */
 
 .testimonials {
     padding: 45px 12px;
@@ -273,7 +297,7 @@ a {
 }
 
 .testimonials > h2 {
-    color: #908de7;
+    color: #9693E6;
 
     font-size: 23px;
 }
@@ -324,29 +348,31 @@ a {
 }
 
 .testimonial-card h3 {
-    color: #222;
+    color: #333333;
 
     font-size: 11px;
 }
 
 .pink {
-    background-color: #ffb9b9;
+    background-color: #FFD2D2;
 }
 
 .orange {
-    background-color: #ffd49a;
+    background-color: #FFE7C4;
 }
 
 .green {
-    background-color: #ade7c9;
+    background-color: #CAF0DB;
 }
 
 
 
-/* BENEFITS */
+/* =========================
+   BENEFITS
+========================= */
 
 .benefits {
-    background-color: #908de7;
+    background-color: #9693E6;
 
     padding: 35px 8px;
 }
@@ -376,7 +402,7 @@ a {
 }
 
 .benefit-card span {
-    color: #908de7;
+    color: #9693E6;
 
     font-size: 37px;
 
@@ -384,7 +410,7 @@ a {
 }
 
 .benefit-card h3 {
-    color: #908de7;
+    color: #9693E6;
 
     font-size: 14px;
 }
@@ -398,7 +424,7 @@ a {
 .benefit-card a {
     display: inline-block;
 
-    background-color: #908de7;
+    background-color: #9693E6;
 
     color: white;
 
@@ -411,7 +437,9 @@ a {
 
 
 
-/* ABOUT */
+/* =========================
+   ABOUT
+========================= */
 
 .about {
     padding: 45px 15px;
@@ -422,7 +450,7 @@ a {
 }
 
 .about-info h2 {
-    color: #908de7;
+    color: #9693E6;
 
     font-size: 28px;
 }
@@ -458,7 +486,7 @@ a {
 }
 
 .about-person h3 {
-    color: #908de7;
+    color: #9693E6;
 
     max-width: 260px;
 
@@ -472,7 +500,7 @@ a {
 
     gap: 6px;
 
-    background-color: #908de7;
+    background-color: #9693E6;
 
     color: white;
 
@@ -489,10 +517,12 @@ a {
 
 
 
-/* PRICING */
+/* =========================
+   PRICING
+========================= */
 
 .pricing {
-    background-color: #908de7;
+    background-color: #9693E6;
 
     color: white;
 
@@ -510,7 +540,7 @@ a {
 }
 
 .pricing h2 {
-    color: #ffc84e;
+    color: #FFC166;
 
     font-size: 43px;
 
@@ -538,7 +568,7 @@ a {
 
     background-color: white;
 
-    color: #908de7;
+    color: #9693E6;
 
     border-radius: 30px;
 
@@ -551,10 +581,12 @@ a {
 
 
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 
 footer {
-    background-color: #333;
+    background-color: #333333;
 
     color: white;
 
@@ -570,7 +602,12 @@ footer p {
 
     margin: auto;
 }
-/* TABLET */
+
+
+
+/* =========================
+   TABLET
+========================= */
 
 @media (min-width: 600px) {
 
@@ -626,7 +663,12 @@ footer p {
     }
 
 }
-/* DESKTOP */
+
+
+
+/* =========================
+   DESKTOP
+========================= */
 
 @media (min-width: 900px) {
 
