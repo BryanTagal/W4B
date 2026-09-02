@@ -768,3 +768,22 @@ footer p {
     }
 
 }
+.footer {
+    width: 100%;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer p {
+    margin: 0 0 1rem;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer a {
+    display: inline-block;
+}
